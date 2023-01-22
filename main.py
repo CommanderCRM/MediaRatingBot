@@ -37,6 +37,9 @@ def handle_media_name(message, media_name):
 
 # outputs 10 first titles from the API response as a numbered list
 def handle_imdb_title_response(message, imdb_data):
+    if "errorMessage" in imdb_data:
+        bot.send_message(chat_id=message.chat.id, text=imdb_data["errorMessage"])
+        return
     if imdb_data:
         titles = imdb_data["results"][:10]
         message_text = "Titles:\n"
