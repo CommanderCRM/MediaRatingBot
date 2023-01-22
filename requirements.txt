@@ -1,0 +1,4 @@
+Flask==2.2.2
+numpy==1.23.4
+pyTelegramBotAPI==4.9.0
+requests==2.28.1
