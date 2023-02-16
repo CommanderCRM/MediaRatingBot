@@ -211,4 +211,4 @@ def handle_media(message):
             bot.reply_to(message, "Command Usage: /media <media_name>")
 
 
-bot.polling()
+bot.infinity_polling()
