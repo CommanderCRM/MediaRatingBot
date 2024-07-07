@@ -1,4 +1,4 @@
 Flask==2.2.5
 numpy==1.23.4
-pyTelegramBotAPI==4.9.0
+pyTelegramBotAPI==4.20.0
 requests==2.32.2
