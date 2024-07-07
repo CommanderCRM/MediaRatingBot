@@ -12,6 +12,7 @@ Flask = "^3.0.3"
 urllib3 = "^2.2.2"
 telebot = "^0.0.5"
 
+
 [tool.poetry.dev-dependencies]
 debugpy = "^1.6.2"
 replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
