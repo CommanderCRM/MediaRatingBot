@@ -14,7 +14,7 @@ telebot = "^0.0.5"
 
 
 [tool.poetry.dev-dependencies]
-debugpy = "^1.8.3"
+debugpy = "^1.8.5"
 replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
 
 [build-system]
